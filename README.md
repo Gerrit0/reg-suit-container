@@ -9,8 +9,8 @@ It exists because reg-suit, while an awesome tool, has a ridiculous number of de
 First, generate screenshots that you want to compare. An easy way to do this is `firefox -screenshot ./index.html`
 
 ```
-docker pull ???
-docker run -v $PWD/old:/old -v $PWD/new:/new -v $PWD/out:/out reg-suit
+docker pull ghcr.io/gerrit0/reg-suit-container:main
+docker run -v $PWD/old:/old -v $PWD/new:/new -v $PWD/out:/out ghcr.io/gerrit0/reg-suit-container:main
 ```
 
 ## Development
